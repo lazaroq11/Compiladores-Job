@@ -1042,14 +1042,14 @@ int falhouAutomato(int &inicia){
 							 	 	iniciolex = pontSeg;
 							 	 	return t;
 							 	
-						 	   //fim do fim
 						 	
-						 	   //inicio erro
+						 	
+						 	
 			 	               case 87:
 			 	               	
 			 	               	pontSeg++;
 			 	               	t.tipo = 13;
-			 	               	for(contAux = iniciolex; contAux<pontSeg; contAux++){
+			 	               	for(contAux = iniciolex; contAux<pontSeg; contAux){
 			 	               		  t.lexema[pos] = vet[contAux];
 			 	               		  pos++;
 			 	               		
@@ -1060,20 +1060,9 @@ int falhouAutomato(int &inicia){
 									return t;
 			 
         	
-        }
-   
-       
-    }
-
-
-
-
-
-
-
-
-
- }
+}
+}
+}
 	    		
 
 	    	

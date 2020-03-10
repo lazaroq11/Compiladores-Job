@@ -14,6 +14,7 @@ TÍTULO : ALLOCATION.H
 #include<string.h>
 
 
+
 typedef struct token {   //definindo tipo token
 	
 	int tipo;  // tipo de lexema

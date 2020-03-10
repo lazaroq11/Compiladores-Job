@@ -14,7 +14,7 @@ TÍTULO : TOKEN.H
 #include<string.h>
 #include "allocation.h"
 #include "lexico.h"
-#include "geraArq.h"
+
 void retornaToken(){ //rotina para retornar token
 	token t;
 	

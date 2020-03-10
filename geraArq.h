@@ -6,6 +6,7 @@
 #include "lexico.h"
 #include "token.h"
 #include "allocation.h"
+
 char saiArq(char *arqSaida){
 
 token t;
