@@ -10,14 +10,15 @@
 char saiArq(char *arqSaida){
 
 token t;
+t= proxToken();
 
 
 
-FILE *Arq2;
+FILE *outfile;
 
-Arq2 = fopen("saida.txt","w");
+outfile = fopen(arqSaida,"w");
 
-if(Arq2 == NULL){
+if(outfile == NULL){
  
 	printf("O arquivo não foi aberto/n");
 }
@@ -25,12 +26,14 @@ if(Arq2 == NULL){
           
 else{
 	
-    
-	fprintf("saida.txt","%d",t.tipo);
-	fprintf("saida.txt","%s",t.lexema.c_str());
-	fprintf("saida.txt","%d",t.posicaoLex);
+    while(1){
 	
-	fclose(Arq2); 
+	fprintf(outfile,"%d",t.tipo);
+	fprintf(outfile,"%s",t.lexema);
+	fprintf(outfile,"%d",t.posicaoLex);
+}
+
+	fclose(outfile); 
 	  } 
 
 

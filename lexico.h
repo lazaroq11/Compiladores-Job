@@ -15,6 +15,7 @@ TÍTULO : lEXICO.H
 #include "allocation.h"
 
 
+
 int falhouAutomato(int &inicia){
 	
 	switch(inicia){

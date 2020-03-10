@@ -15,6 +15,7 @@ TÍTULO : TOKEN.H
 #include "allocation.h"
 #include "lexico.h"
 
+
 void retornaToken(){ //rotina para retornar token
 	token t;
 	

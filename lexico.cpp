@@ -15,6 +15,7 @@ TÍTULO : lEXICO.CPP
 #include "allocation.h"
 #include"lexico.h"
 #include"token.h"
+#include"geraArq.h"
 
 
 
@@ -23,9 +24,9 @@ TÍTULO : lEXICO.CPP
 int main(){
 	
 	abreArq("entrada.txt");
+	 retornaToken();
+	saiArq("saida.txt");
+
 	
-	
-	retornaToken();
-	
-	//saiArq("saida.txt");
+
 }
