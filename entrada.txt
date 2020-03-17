@@ -1,0 +1,18 @@
+INTEIRO = x;
+LOGICO = z;
+BOOLEAN = a;
+
+SE(x == z)
+
+FACA
+
+x+z = 3;
+
+ACABOU
+
+ENQUANTO(a = 1)
+x++
+
+ACABOU
+CACHORRO
+<<
